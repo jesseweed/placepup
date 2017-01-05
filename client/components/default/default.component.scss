@@ -1,0 +1,57 @@
+.show {
+  opacity: 1 !important;
+}
+
+.main {
+  opacity: 0;
+  transition: 1s ease-in-out opacity;
+}
+
+label {
+  color: rgba(0,0,0, 0.8);
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 5px;
+
+  background: #73c1cf; /* Old browsers */
+  background: -moz-linear-gradient(left,  #73c1cf 30%, #8df754 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #73c1cf 30%,#8df754 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #73c1cf 30%,#8df754 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  &.bw {
+    background: #e5e5e5; /* Old browsers */
+    background: -moz-linear-gradient(left,  #e5e5e5 30%, #bfc4c9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #e5e5e5 30%,#bfc4c9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #e5e5e5 30%,#bfc4c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    color: rgba(0,0,0, 0.7);
+  }
+
+}
+
+.top {
+  width: 805px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &.link {
+    float: left;
+  }
+}
+
+.size {
+  font-weight: 500;
+}
+
+.left, .right {
+  display: inline-block;
+  padding: 5px 5px 5px 0;
+  width: 250px;
+  height: 300px;
+}
+
+.left {
+  width: 500px;
+  padding-right: 50px;
+}
