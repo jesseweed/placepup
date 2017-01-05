@@ -12,7 +12,7 @@
     "build": "NODE_ENV=production node build.js",
     "prod": "NODE_ENV=production nodemon server.js",
     "start": "webpack-dashboard -c blue -- nodemon server.js",
-    "postinstall": "npm build"
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": ">7.2.0",
