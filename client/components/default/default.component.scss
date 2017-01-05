@@ -44,14 +44,15 @@ label {
   font-weight: 500;
 }
 
-.left, .right {
+.big, .small {
   display: inline-block;
   padding: 5px 5px 5px 0;
   width: 250px;
   height: 300px;
+  margin-bottom: 20px;
+  padding-right: 50px;
 }
 
-.left {
+.big {
   width: 500px;
-  padding-right: 50px;
 }
